@@ -1,0 +1,17 @@
+
+MTR.csv
+====================================================
+Subjects removed: ['sub-beijingPrisma04', 'sub-geneva02']
+ANOVA[site] for GE: F_onewayResult(statistic=3.714397728169448, pvalue=0.0258596185126306)
+ANOVA[site] for Philips: F_onewayResult(statistic=1.6077818714644514, pvalue=0.17335653904061593)
+ANOVA[site] for Siemens: F_onewayResult(statistic=1.898579355446803, pvalue=0.009752074468881029)
+ANOVA[vendor]: F_onewayResult(statistic=102.17895973718223, pvalue=2.442610693108893e-15)
+Tukey Honestly Significant Difference (HSD):
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05  
+======================================================
+ group1  group2 meandiff p-adj   lower   upper  reject
+------------------------------------------------------
+     GE Philips  -5.3256 0.0157 -9.7697 -0.8816   True
+     GE Siemens  -4.7242 0.0118 -8.5195 -0.9289   True
+Philips Siemens   0.6014 0.8803 -2.5365  3.7394  False
+------------------------------------------------------
